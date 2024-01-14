@@ -1,0 +1,21 @@
+html,
+body {
+  font-family: var(--ff);
+}
+
+body {
+  background-size: cover;
+}
+
+.container {
+  max-width: 1173px;
+  margin-inline: auto;
+}
+
+.btn {
+  border-radius: 4px;
+  background: var(
+    --Gardient,
+    linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
+  );
+}

@@ -1,0 +1,16 @@
+:root {
+  --ff: 'Dm Sans', sans-serif;
+  --white: #fff;
+
+  --primary-color: #595085;
+
+  //adaptive width
+
+  $desktop-small: 1200px;
+  $tablet: 992px;
+  $tablet-small: 768px;
+  $mobile: 576px;
+
+  --title: 700 42px / normal var(--ff);
+  --desc: 400 16px / normal var(--ff);
+}

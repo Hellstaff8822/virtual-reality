@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  &__nav {
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+
+  &__li {
+  }
+
+  &__link {
+    color: #f9fafb;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__button {
+    color: #f9fafb;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 24px;
+  }
+}
