@@ -1,53 +1,135 @@
 .footer {
-    
+  display: flex;
+  flex-direction: column;
 
-    &_supports {
-    }
+  &_supports {
+  }
 
-    &_resources {
-    }
+  &_resources {
+  }
 
-    &__container {
-    }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 141px;
+    padding-left: 141px;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.2);
+  }
 
-    &__content {
-    }
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 98px;
+    margin-inline: auto;
 
-    &__conect {
+    .footer-media {
+      display: flex;
+      gap: 15px;
+      &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #969696;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        border-radius: 32.2px;
+        border: 1px solid var(--Stoke, rgba(255, 255, 255, 0.08));
+        background: var(
+          --Bg,
+          linear-gradient(
+            180deg,
+            rgba(254, 254, 255, 0.01) 0%,
+            rgba(255, 255, 255, 0.02) 100%
+          )
+        );
+      }
     }
+  }
 
-    &__logo {
-    }
+  &__conect {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--white);
+    margin-bottom: 17px;
+  }
 
-    &__location {
-    }
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--ff-second);
+    font-size: 20px;
+    font-weight: 500;
+  }
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__location {
+    display: flex;
+    gap: 7px;
+  }
+  &__tel {
+    display: flex;
+    gap: 7px;
+  }
+  &__mail {
+    display: flex;
+    gap: 7px;
+  }
 
-    &__tel {
-    }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 32px;
+  }
 
-    &__lmail {
-    }
+  &__link {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.18px;
+  }
 
-    &__service {
-    }
+  &__title {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.18px;
+  }
 
-    &__list {
-    }
+  &__company {
+  }
 
-    &__link {
-    }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 714px;
+    padding: 33px 0 33px 0;
+  }
 
-    &__company {
-    }
-
-    &__bottom {
-    }
-
-    &__copiwrhite {
-    }
+  &__copiwrhite {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: var(--ff-second);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+  }
 }
 .footer-defense {
-
-    &__link {
-    }
+  display: flex;
+  gap: 53px;
+  &__link {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+  }
 }
