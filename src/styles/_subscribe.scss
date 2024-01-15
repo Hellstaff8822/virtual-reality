@@ -20,12 +20,19 @@
   &__title {
     font: var(--title);
     color: var(--white);
+    @include tablet{
+      font-size: 32px;
+    }
   }
 
   &__desc {
     font: var(--desc);
     color: var(--white);
     line-height: 30px;
+    @include tablet{
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
   }
 
   &__email {
@@ -53,6 +60,9 @@
       font-weight: 400;
       line-height: 30px;
     }
+    @include tablet{
+      width: 700px;
+    }
   }
 
   &__button {
@@ -70,5 +80,8 @@
     position: absolute;
     top: 10px;
     right: 10px;
+    @include tablet{
+      font-size: 17px;
+    }
   }
 }

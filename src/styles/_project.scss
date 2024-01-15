@@ -1,37 +1,51 @@
 .project {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  gap: 57px;
+  @include tablet {
+    margin-bottom: 80px;
+  }
+
+  &__customer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &.order-reverse {
+      flex-direction: row-reverse;
+      @include tablet {
+        flex-direction: column;
+      }
+    }
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+  &__info {
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
-    gap: 57px;
+    align-items: flex-start;
+    gap: 30px;
+    color: var(--white);
+    
+  }
 
-    &__customer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        &.order-reverse {
-            flex-direction: row-reverse; 
-          }
-          
+  &__title {
+    font: var(--title);
+    @include tablet {
+      font-size: 32px;
     }
-    &__info{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 30px;
-        color: var(--white);
-    }
+  }
 
-    &__title {
-        font: var(--title);
-        
+  &__desc {
+    font: var(--desc);
+    @include tablet {
+      font-size: 14px;
     }
+  }
 
-    &__desc {
-        font: var(--desc);
-    }
-
-    &__btn {
-        color: var(--white);
-        padding: 7px 14px;
-    }
+  &__btn {
+    color: var(--white);
+    padding: 7px 14px;
+  }
 }

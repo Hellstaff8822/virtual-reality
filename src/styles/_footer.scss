@@ -21,6 +21,11 @@
     align-items: center;
     gap: 98px;
     margin-inline: auto;
+    @include tablet {
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+    }
 
     .footer-media {
       display: flex;
@@ -113,6 +118,9 @@
     justify-content: center;
     gap: 714px;
     padding: 33px 0 33px 0;
+    @include tablet {
+      gap: 178px;
+    }
   }
 
   &__copiwrhite {

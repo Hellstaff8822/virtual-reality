@@ -1,5 +1,6 @@
-
-export const Header = () => {
+import React from 'react';
+export const Header: React.FC = () => {
+    
   return (
     <div className='header'>
        <div className="header__logo">
@@ -23,7 +24,9 @@ export const Header = () => {
             </li>
             <a href='/' className=" btn header__button">Contact Us</a>
         </ul>
+        
        </nav>
+       
     </div>
   )
 }

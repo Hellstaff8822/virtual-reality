@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
+  @include tablet{
+    padding-bottom: 40px
+  }
 
   &__logo {
     display: flex;
@@ -13,6 +16,10 @@
   }
 
   &__nav {
+    position: relative;
+    @include tablet{
+      display: none;
+    }
   }
 
   &__list {
@@ -36,4 +43,11 @@
     font-weight: 500;
     padding: 12px 24px;
   }
+
+ 
 }
+
+
+
+
+

@@ -12,17 +12,27 @@
   &__title {
     font: var(--title);
     margin-bottom: 30px;
+    @include tablet{
+      font-size: 32px;
+    }
   }
 
   &__desc {
     font: var(--desc);
     width: 587px;
+    @include tablet{
+      width: 487px;
+      font-size: 14px;
+    }
   }
 
   &__card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+    @include tablet{
+      grid-template-columns: 1fr 1fr;
+    }
   }
 }
 .service-item {
