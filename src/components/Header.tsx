@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   return (
     <header className='header'>
       <a href='/' className="header__logo">
-        <img src="src/assets/icons/logo.svg" alt="logo" />Zone.</a>
+        <img src="/public/assets/icons/logo.svg" alt="logo" />Zone.</a>
       <div className="header__nav">
         <ul className="header__list">
           <li className="header__li">

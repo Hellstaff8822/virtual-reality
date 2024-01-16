@@ -13,13 +13,13 @@ export const Virtual = () => {
             Join Us
           </a>
           <a href="/" className="virtual__watch">
-            <img src="src/assets/icons/play-circle.svg" alt="play" />
+            <img src="public/assets/icons/play-circle.svg" alt="play" />
             Watch video
           </a>
         </div>
       </div>
       <div className="virtual__img">
-        <img src="src/assets/Saly-19.png" alt="Saly-19" />
+        <img src="public/assets/Saly-19.png" alt="Saly-19" />
       </div>
     </div>
   );

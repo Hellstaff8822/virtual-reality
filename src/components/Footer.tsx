@@ -5,25 +5,25 @@ export const Footer = () => {
             <div className="footer__container">
                 <div className="footer__content">
                     <div className="footer__conect">
-                        <div className="footer__logo"><img src="src/assets/icons/logo.svg" alt="logo" />Zone.</div>
+                        <div className="footer__logo"><img src="/public/assets/icons/logo.svg" alt="logo" />Zone.</div>
                         <div className="footer__contact">
-                        <div className="footer__location"><img src="src/assets/icons/footer/Location.svg" alt="Location" />Dhaka, Bangladesh</div>
-                        <div className="footer__tel"><img src="src/assets/icons/footer/Calling.svg" alt="Calling" />0943833399</div>
-                        <div className="footer__mail"><img src="src/assets/icons/footer/Message.svg" alt="Message" />support@zone.com</div>
+                        <div className="footer__location"><img src="/public/assets/icons/footer/Location.svg" alt="Location" />Dhaka, Bangladesh</div>
+                        <div className="footer__tel"><img src="/public/assets/icons/footer/Calling.svg" alt="Calling" />0943833399</div>
+                        <div className="footer__mail"><img src="/public/assets/icons/footer/Message.svg" alt="Message" />support@zone.com</div>
                         </div>
                         
                         <div className="footer-media">
                             <a href='/' className="footer-media__icon">
-                                <img src="src/assets/icons/footer/ic-facebook.svg" alt="facebook" />
+                                <img src="/public/assets/icons/footer/ic-facebook.svg" alt="facebook" />
                             </a>
                             <a href='/' className="footer-media__icon">
-                                <img src="src/assets/icons/footer/ic-twitter.svg" alt="twitter" />
+                                <img src="/public/assets/icons/footer/ic-twitter.svg" alt="twitter" />
                             </a>
                             <a href='/' className="footer-media__icon">
-                                <img src="src/assets/icons/footer/ic-instagram.svg" alt="instagram" />
+                                <img src="/public/assets/icons/footer/ic-instagram.svg" alt="instagram" />
                             </a>
                             <a href='/' className="footer-media__icon">
-                                <img src="src/assets/icons/footer/ic-pinterset.svg" alt="pinterset" />
+                                <img src="/public/assets/icons/footer/ic-pinterset.svg" alt="pinterset" />
                             </a>
                         </div>
                     </div>

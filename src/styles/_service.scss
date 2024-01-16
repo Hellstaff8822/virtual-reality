@@ -80,7 +80,7 @@
   }
 
   &__title {
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 500;
     margin-bottom: 17px;
     @include mobile{
@@ -91,6 +91,7 @@
   &__desc {
     font: var(--desc);
     margin-bottom: 24px;
+    text-align: center;
     @include mobile{
       font-size: 10px;
       text-align: center;

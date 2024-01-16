@@ -128,11 +128,12 @@
     gap: 714px;
     padding: 33px 0 33px 0;
     @include tablet {
-      gap: 178px;
-    }
-    @include mobile{
       flex-direction: column;
       gap: 30px;
+    }
+    @include mobile{
+     
+      
     }
   }
 
