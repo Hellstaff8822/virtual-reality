@@ -39,7 +39,9 @@
     transition: .3s all ease-in-out;
     &:hover {
       color: #ae01f8;
-      
+      @include mobile{
+        pointer-events: none;
+      }
     }
     &::before {
       content: "";
@@ -56,12 +58,7 @@
     &:hover::before {
       transform: scaleX(1);
     }
-    @include tablet{
-      &:hover{
-        pointer-events: none;
-      }
-    }
-    
+   
   }
 
   &__button {
