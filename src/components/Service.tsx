@@ -14,7 +14,7 @@ export const Service = () => {
         <div className="service-item">
             <div className="service-item__icon ">
             <div className="purple">
-            <img src="public/assets/service/1.svg" alt="Management" />
+            <img src="/assets/service/1.svg" alt="Management" />
             </div>
                 
             </div>
@@ -23,12 +23,12 @@ export const Service = () => {
             <div className="service-item__desc">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</div>
             </div>
           
-            <a href='/' className="service-item__more">Learn more <img src="public/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
+            <a href='/' className="service-item__more">Learn more <img src="/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
         </div>
         <div className="service-item">
             <div className="service-item__icon">
                 <div className="pink">
-                <img src="public/assets/service/2.svg" alt="Social Assistant" />
+                <img src="/assets/service/2.svg" alt="Social Assistant" />
                 </div>
             </div>
             <div className="service-item__info">
@@ -36,12 +36,12 @@ export const Service = () => {
             <div className="service-item__desc">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</div>
             </div>
          
-            <a href='/' className="service-item__more">Learn more <img src="public/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
+            <a href='/' className="service-item__more">Learn more <img src="/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
         </div>
         <div className="service-item">
             <div className="service-item__icon ">
                 <div className="blue">
-                <img src="public/assets/service/3.svg" alt="Crypto Platform" />
+                <img src="/assets/service/3.svg" alt="Crypto Platform" />
                 </div>
                 
             </div>
@@ -50,12 +50,12 @@ export const Service = () => {
             <div className="service-item__desc">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</div>
             </div>
            
-            <a href='/' className="service-item__more">Learn more <img src="public/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
+            <a href='/' className="service-item__more">Learn more <img src="/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
         </div>
         <div className="service-item">
             <div className="service-item__icon ">
                 <div className="green">
-                <img src="public/assets/service/4.svg" alt="Trading" />
+                <img src="/assets/service/4.svg" alt="Trading" />
                 </div>
                 
                 
@@ -65,12 +65,12 @@ export const Service = () => {
             <div className="service-item__desc">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</div>
             </div>
         
-            <a href='/' className="service-item__more">Learn more <img src="public/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
+            <a href='/' className="service-item__more">Learn more <img src="/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
         </div>
         <div className="service-item">
             <div className="service-item__icon">
             <div className="violet">
-            <img src="public/assets/service/5.svg" alt="News" />
+            <img src="/assets/service/5.svg" alt="News" />
             </div>
                 
             </div>
@@ -79,12 +79,12 @@ export const Service = () => {
             <div className="service-item__desc">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</div>
             </div>
             
-            <a href='/' className="service-item__more">Learn more <img src="public/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
+            <a href='/' className="service-item__more">Learn more <img src="/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
         </div>
         <div className="service-item">
             <div className="service-item__icon ">
                 <div className="viowwite">
-                <img src="public/assets/service/6.svg" alt="Price" />
+                <img src="/assets/service/6.svg" alt="Price" />
                 </div>
                 
             </div>
@@ -93,7 +93,7 @@ export const Service = () => {
             <div className="service-item__desc">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</div>
             </div>
           
-            <a href='/' className="service-item__more">Learn more <img src="public/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
+            <a href='/' className="service-item__more">Learn more <img src="/assets/icons/fi-rr-arrow-small-right 1.svg" alt="arrow" /></a>
         </div>
       </div>
     </div>
