@@ -26,6 +26,7 @@
     @include tablet{
       width: 487px;
       font-size: 14px;
+      margin-bottom: 40px;
     }
     @include mobile{
       width: 287px;
@@ -61,6 +62,9 @@
   );
   box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
   margin-top: 40px;
+  @include tablet{
+    margin: 0;
+  }
   @include mobile{
     padding: 37px 23px 30px 23px;
   }

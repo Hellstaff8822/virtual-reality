@@ -4,7 +4,8 @@
   margin-top: 120px;
   gap: 57px;
   @include tablet {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
+    gap: 80px;
   }
 
   &__customer {

@@ -1,5 +1,5 @@
 import { Footer } from './components/Footer'
-import { Header } from './components/Header'
+import Header from './components/Header'
 import { Project } from './components/Project'
 import { Service } from './components/Service'
 import { Subscribe } from './components/Subscribe'

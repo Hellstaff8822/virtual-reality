@@ -5,13 +5,14 @@
   @include tablet {
     flex-direction: column;
     margin-bottom: 100px;
+    padding-top: 80px;
   }
 
   &__info {
     display: flex;
     flex-direction: column;
     @include mobile {
-      align-items: center;
+      text-align: center;
     }
   }
 
@@ -62,6 +63,9 @@
   &__parts {
     display: flex;
     gap: 29px;
+    @include tablet{
+      justify-content: center;
+    }
   }
 
   &__btn {

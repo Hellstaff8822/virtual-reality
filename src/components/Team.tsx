@@ -1,6 +1,6 @@
 export const Team = () => {
   return (
-    <div className="team">
+    <div id="blog" className="team">
       <div className="team__info">
         <div className="team__title">Met Our Team</div>
         <div className="team__desc">

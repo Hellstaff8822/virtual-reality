@@ -5,7 +5,7 @@ export const Project: React.FC<ProjectProps> = ({ reverseOrder }) => {
   
       
   return (
-    <div className="project">
+    <div id="about" className="project">
       <div className={`project__customer ${reverseOrder ? '' : 'order-reverse'}`}>
         <img src="/src/assets/man1.png" alt="man1" />
         <div className="project__info">

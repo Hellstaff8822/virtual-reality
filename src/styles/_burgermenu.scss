@@ -1,0 +1,45 @@
+.bm-overlay{
+    display: none;
+}
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 30px;
+    top: 15px;
+    z-index: 100;
+    @include tablet{
+      display: block;
+    }
+  }
+
+  .bm-burger-bars {
+    background: var(--white);
+  }
+
+  .bm-menu {
+    background: rgba(17, 24, 39, 0.9);
+    padding: 20px;
+    
+  }
+
+  .bm-item-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    color: #b8b7ad;
+  }
+
+  .bm-menu-wrap {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 1001;
+    width: 100%;
+    @include tablet-small {
+      width: 0;
+      overflow: hidden;
+    }
+  }
