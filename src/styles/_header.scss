@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
-  @include tablet{
-    padding-bottom: 40px
+  @include tablet {
+    padding-bottom: 40px;
+    padding-top: 5px;
   }
 
   &__logo {
@@ -17,7 +18,7 @@
 
   &__nav {
     position: relative;
-    @include tablet{
+    @include tablet {
       display: none;
     }
   }
@@ -43,11 +44,6 @@
     font-weight: 500;
     padding: 12px 24px;
   }
-
- 
 }
-
-
-
 
 

@@ -10,6 +10,9 @@
   &__info {
     display: flex;
     flex-direction: column;
+    @include mobile {
+      align-items: center;
+    }
   }
 
   &__title {
@@ -31,6 +34,12 @@
       width: 444px;
       font-size: 44px;
     }
+    @include mobile {
+      width: 244px;
+      font-size: 24px;
+      line-height: 24px;
+    }
+    
   }
 
   &__desc {
@@ -44,6 +53,10 @@
     @include tablet {
       width: 434px;
       font-size: 12px;
+    }
+    @include mobile {
+      width: 234px;
+      font-size: 10px;
     }
   }
   &__parts {
@@ -60,6 +73,10 @@
       font-size: 16px;
       padding: 15px 30px;
     }
+    @include mobile {
+      font-size: 12px;
+      padding: 10px 20px;
+    }
   }
 
   &__join {
@@ -72,6 +89,12 @@
     color: #f9fafb;
     font-size: 16px;
     font-weight: 500;
+    @include mobile {
+      font-size: 12px;
+      img{
+        width: 25px;
+      }
+    }
   }
 
   &__img {

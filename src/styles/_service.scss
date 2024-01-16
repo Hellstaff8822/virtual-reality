@@ -15,6 +15,9 @@
     @include tablet{
       font-size: 32px;
     }
+    @include mobile{
+      font-size: 16px;
+    }
   }
 
   &__desc {
@@ -24,6 +27,11 @@
       width: 487px;
       font-size: 14px;
     }
+    @include mobile{
+      width: 287px;
+      font-size: 10px;
+      text-align: center;
+    }
   }
 
   &__card {
@@ -32,6 +40,9 @@
     gap: 30px;
     @include tablet{
       grid-template-columns: 1fr 1fr;
+    }
+    @include mobile{
+      grid-template-columns: 1fr;
     }
   }
 }
@@ -50,6 +61,9 @@
   );
   box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
   margin-top: 40px;
+  @include mobile{
+    padding: 37px 23px 30px 23px;
+  }
   &__icon {
     flex-shrink: 0;
     margin-bottom: 19px;
@@ -65,16 +79,31 @@
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 17px;
+    @include mobile{
+      font-size: 15px;
+    }
   }
 
   &__desc {
     font: var(--desc);
     margin-bottom: 24px;
+    @include mobile{
+      font-size: 10px;
+    }
   }
 
   &__more {
+    display: flex;
+    align-items: center;
+    gap: 9px;
     color: var(--white);
     font: var(--desc);
+    @include mobile{
+      img{
+        width: 15px;
+      }
+      font-size: 10px;
+    }
   }
 
   .purple {

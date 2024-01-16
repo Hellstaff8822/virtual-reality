@@ -14,6 +14,9 @@
     padding-right: 141px;
     padding-left: 141px;
     border-bottom: 1px solid rgba(150, 150, 150, 0.2);
+    @include mobile{
+     padding: 0;
+    }
   }
 
   &__content {
@@ -75,14 +78,20 @@
   }
   &__location {
     display: flex;
+    align-items: center;
+
     gap: 7px;
   }
   &__tel {
     display: flex;
+    align-items: center;
+
     gap: 7px;
   }
   &__mail {
     display: flex;
+    align-items: center;
+
     gap: 7px;
   }
 
@@ -120,6 +129,10 @@
     padding: 33px 0 33px 0;
     @include tablet {
       gap: 178px;
+    }
+    @include mobile{
+      flex-direction: column;
+      gap: 30px;
     }
   }
 

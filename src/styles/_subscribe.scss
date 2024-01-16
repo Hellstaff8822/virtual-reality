@@ -16,12 +16,18 @@
   padding: 50px;
   margin-top: 120px;
   margin-bottom: 89px;
+  @include tablet {
+    padding: 40px 30px 40px 30px;
+  }
 
   &__title {
     font: var(--title);
     color: var(--white);
-    @include tablet{
+    @include tablet {
       font-size: 32px;
+    }
+    @include mobile {
+      font-size: 16px;
     }
   }
 
@@ -29,14 +35,18 @@
     font: var(--desc);
     color: var(--white);
     line-height: 30px;
-    @include tablet{
+    @include tablet {
       font-size: 13px;
       margin-bottom: 10px;
+    }
+    @include mobile {
+      font-size: 10px;
     }
   }
 
   &__email {
     position: relative;
+    
   }
 
   &__field {
@@ -54,14 +64,25 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    padding-right: 50px;
+  
     &::placeholder {
       color: var(--white);
       font-size: 18px;
       font-weight: 400;
       line-height: 30px;
+
+      @include mobile {
+        font-size: 11px;
+      }
     }
-    @include tablet{
+    @include tablet {
       width: 700px;
+    }
+    @include mobile {
+      font-size: 12px;
+      width: 250px;
+      padding: 10px;
     }
   }
 
@@ -80,8 +101,14 @@
     position: absolute;
     top: 10px;
     right: 10px;
-    @include tablet{
+    padding-left: 5px;
+    @include tablet {
       font-size: 17px;
+    }
+    @include mobile {
+      font-size: 12px;
+      padding: 0 3px 0 3px;
+      gap: 4px;
     }
   }
 }
