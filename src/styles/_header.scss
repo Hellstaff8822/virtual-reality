@@ -39,7 +39,7 @@
     transition: .3s all ease-in-out;
     &:hover {
       color: #ae01f8;
-      @include mobile{
+      @include tablet{
         pointer-events: none;
       }
     }
