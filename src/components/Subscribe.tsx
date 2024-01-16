@@ -6,7 +6,7 @@ export const Subscribe = () => {
         <div className="subscribe__desc">We recommended you to subscribe to our newspaper,drop your email below to get daily update about us</div>
         <div className="subscribe__email">
             <input type="email" placeholder='Enter your email addres' className="subscribe__field" />
-            <button  className=" btn subscribe__button"> <img src="/src/assets/icons/teleg.svg" alt="massage" />Subscribe</button>
+            <button  className=" btn subscribe__button"> <img src="src/assets/icons/teleg.svg" alt="massage" />Subscribe</button>
           </div>
     </div>
   )

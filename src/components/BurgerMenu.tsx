@@ -30,8 +30,8 @@ const BurgerMenu: React.FC = () => {
       right
       isOpen={menuOpen}
       onStateChange={handleMenuStateChange}
-      customBurgerIcon={<img src='/src/assets/icons/icons8-menu.svg' alt='menu' />}
-      customCrossIcon={<img src='/src/assets/icons/icons8-close.svg' alt='close' />}
+      customBurgerIcon={<img src='src/assets/icons/icons8-menu.svg' alt='menu' />}
+      customCrossIcon={<img src='src/assets/icons/icons8-close.svg' alt='close' />}
     >
       <a href='/' className='header__link'>
         Home

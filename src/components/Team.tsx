@@ -11,7 +11,7 @@ export const Team = () => {
       <div className="team__card">
         <div className="team-item">
           <div className="team-item__icon">
-            <img src="/src/assets/team/sunny.png" alt="Sunny" />
+            <img src="src/assets/team/sunny.png" alt="Sunny" />
           </div>
 
           <div className="team-item__info">
@@ -21,28 +21,28 @@ export const Team = () => {
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/skype.svg"
+                  src="src/assets/team/skype.svg"
                   alt="skype"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/linkedin.svg"
+                  src="src/assets/team/linkedin.svg"
                   alt="linkedin"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/twitter.svg"
+                  src="src/assets/team/twitter.svg"
                   alt="twitter"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/facebook.svg"
+                  src="src/assets/team/facebook.svg"
                   alt="facebook"
                 />
               </a>
@@ -51,7 +51,7 @@ export const Team = () => {
         </div>
         <div className="team-item">
           <div className="team-item__icon">
-            <img src="/src/assets/team/Alina.png" alt="Alina" />
+            <img src="src/assets/team/Alina.png" alt="Alina" />
           </div>
 
           <div className="team-item__info">
@@ -61,28 +61,28 @@ export const Team = () => {
             <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/skype.svg"
+                  src="src/assets/team/skype.svg"
                   alt="skype"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/linkedin.svg"
+                  src="src/assets/team/linkedin.svg"
                   alt="linkedin"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/twitter.svg"
+                  src="src/assets/team/twitter.svg"
                   alt="twitter"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/facebook.svg"
+                  src="src/assets/team/facebook.svg"
                   alt="facebook"
                 />
               </a>
@@ -91,7 +91,7 @@ export const Team = () => {
         </div>
         <div className="team-item">
           <div className="team-item__icon">
-            <img src="/src/assets/team/Alex.png" alt="Alex" />
+            <img src="src/assets/team/Alex.png" alt="Alex" />
           </div>
           <div className="team-item__info">
             <div className="team-item__name">Alex Sohag</div>
@@ -100,28 +100,28 @@ export const Team = () => {
             <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/skype.svg"
+                  src="src/assets/team/skype.svg"
                   alt="skype"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/linkedin.svg"
+                  src="src/assets/team/linkedin.svg"
                   alt="linkedin"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/twitter.svg"
+                  src="src/assets/team/twitter.svg"
                   alt="twitter"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/facebook.svg"
+                  src="src/assets/team/facebook.svg"
                   alt="facebook"
                 />
               </a>
@@ -130,7 +130,7 @@ export const Team = () => {
         </div>
         <div className="team-item">
           <div className="team-item__icon">
-            <img src="/src/assets/team/Afroza.png" alt="Afroza" />
+            <img src="src/assets/team/Afroza.png" alt="Afroza" />
           </div>
           <div className="team-item__info">
             <div className="team-item__name">Afroza Mou</div>
@@ -139,28 +139,28 @@ export const Team = () => {
             <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/skype.svg"
+                  src="src/assets/team/skype.svg"
                   alt="skype"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/linkedin.svg"
+                  src="src/assets/team/linkedin.svg"
                   alt="linkedin"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/twitter.svg"
+                  src="src/assets/team/twitter.svg"
                   alt="twitter"
                 />
               </a>
               <a href="/">
                 <img
                   className="team-item__img"
-                  src="/src/assets/team/facebook.svg"
+                  src="src/assets/team/facebook.svg"
                   alt="facebook"
                 />
               </a>
