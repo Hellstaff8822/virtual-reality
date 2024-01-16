@@ -12,10 +12,10 @@
   &__title {
     font: var(--title);
     margin-bottom: 30px;
-    @include tablet{
+    @include tablet {
       font-size: 32px;
     }
-    @include mobile{
+    @include mobile {
       font-size: 16px;
     }
   }
@@ -23,12 +23,13 @@
   &__desc {
     font: var(--desc);
     width: 587px;
-    @include tablet{
+    margin-bottom: 40px;
+
+    @include tablet {
       width: 487px;
       font-size: 14px;
-      margin-bottom: 40px;
     }
-    @include mobile{
+    @include mobile {
       width: 287px;
       font-size: 10px;
       text-align: center;
@@ -39,10 +40,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    @include tablet{
+    @include tablet {
       grid-template-columns: 1fr 1fr;
     }
-    @include mobile{
+    @include mobile {
       grid-template-columns: 1fr;
     }
   }
@@ -53,6 +54,7 @@
   align-items: center;
   padding: 37px 23px 30px 23px;
   color: var(--white);
+  cursor: pointer;
   border-radius: 34px;
   border: 1px solid var(--Bg-2, rgba(255, 255, 255, 0.08));
   background: linear-gradient(
@@ -61,11 +63,17 @@
     rgba(255, 255, 255, 0.02) 104.89%
   );
   box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
-  margin-top: 40px;
-  @include tablet{
+  transition: 0.3s all ease-in-out;
+  &:hover {
+    box-shadow: 0px 22px 18px 0px rgba(248, 29, 219, 0.33);
+  }
+  @include tablet {
+    &:hover{
+      pointer-events: none;
+    }
     margin: 0;
   }
-  @include mobile{
+  @include mobile {
     padding: 37px 23px 30px 23px;
   }
   &__icon {
@@ -83,7 +91,7 @@
     font-size: 23px;
     font-weight: 500;
     margin-bottom: 17px;
-    @include mobile{
+    @include mobile {
       font-size: 15px;
     }
   }
@@ -92,7 +100,7 @@
     font: var(--desc);
     margin-bottom: 24px;
     text-align: center;
-    @include mobile{
+    @include mobile {
       font-size: 10px;
       text-align: center;
     }
@@ -104,8 +112,8 @@
     gap: 9px;
     color: var(--white);
     font: var(--desc);
-    @include mobile{
-      img{
+    @include mobile {
+      img {
         width: 15px;
       }
       font-size: 10px;
@@ -120,9 +128,8 @@
     height: 74px;
     flex-shrink: 0;
     border-radius: 50%;
-    background: linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
+    background: linear-gradient(180deg, #8a7fd9 0%, #402f8f 100%);
   }
-
 
   .pink {
     display: flex;
@@ -153,7 +160,7 @@
     height: 74px;
     flex-shrink: 0;
     border-radius: 50%;
-    background:  linear-gradient(180deg, #92EFC3 0%, #2F8F5B 100%);
+    background: linear-gradient(180deg, #92efc3 0%, #2f8f5b 100%);
   }
   .violet {
     display: flex;

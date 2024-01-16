@@ -2,11 +2,7 @@
   display: flex;
   flex-direction: column;
 
-  &_supports {
-  }
-
-  &_resources {
-  }
+ 
 
   &__container {
     display: flex;
@@ -14,8 +10,8 @@
     padding-right: 141px;
     padding-left: 141px;
     border-bottom: 1px solid rgba(150, 150, 150, 0.2);
-    @include mobile{
-     padding: 0;
+    @include mobile {
+      padding: 0;
     }
   }
 
@@ -74,25 +70,47 @@
   &__contact {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 14px;
   }
-  &__location {
+  &__location{
     display: flex;
     align-items: center;
-
     gap: 7px;
+    color: var(--Footer-Gradient);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    transition:0.2s all ease-in-out;
+    &:hover{
+      color: rgb(213, 60, 60);
+    }
   }
   &__tel {
     display: flex;
     align-items: center;
-
     gap: 7px;
+    color: var(--Footer-Gradient);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    transition:0.2s all ease-in-out;
+    &:hover{
+      color: rgb(213, 60, 60);
+    }
   }
   &__mail {
     display: flex;
     align-items: center;
-
     gap: 7px;
+    color: var(--Footer-Gradient);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    transition:0.2s all eease-in-out;
+    &:hover{
+      color: rgb(213, 60, 60);
+    }
   }
 
   &__list {
@@ -103,23 +121,25 @@
   }
 
   &__link {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--Footer-Gradient);
     font-size: 18px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0.18px;
+    transition: 0.5s all ease-in-out;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__title {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--Footer-Gradient);
     font-size: 18px;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.18px;
   }
 
-  &__company {
-  }
 
   &__bottom {
     display: flex;
@@ -131,14 +151,12 @@
       flex-direction: column;
       gap: 30px;
     }
-    @include mobile{
-     
-      
+    @include mobile {
     }
   }
 
   &__copiwrhite {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--Footer-Gradient);
     font-family: var(--ff-second);
     font-size: 14px;
     font-weight: 400;
@@ -149,7 +167,7 @@
   display: flex;
   gap: 53px;
   &__link {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--Footer-Gradient);
     font-size: 14px;
     font-weight: 400;
     line-height: 14px;

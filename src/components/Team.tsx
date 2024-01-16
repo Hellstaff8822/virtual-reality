@@ -9,7 +9,7 @@ export const Team = () => {
         </div>
       </div>
       <div className="team__card">
-        <div className="team-item">
+        <div className="team-item ">
           <div className="team-item__icon">
             <img src="/assets/team/sunny.png" alt="Sunny" />
           </div>
@@ -128,7 +128,7 @@ export const Team = () => {
             </div>
           </div>
         </div>
-        <div className="team-item">
+        <div className="team-item ">
           <div className="team-item__icon">
             <img src="/assets/team/Afroza.png" alt="Afroza" />
           </div>

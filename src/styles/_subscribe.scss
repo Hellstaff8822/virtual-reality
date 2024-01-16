@@ -65,14 +65,13 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding-right: 50px;
+   
   
     &::placeholder {
       color: var(--white);
       font-size: 18px;
       font-weight: 400;
       line-height: 30px;
-
       @include mobile {
         font-size: 11px;
         padding-left: 10px;
@@ -103,6 +102,7 @@
     position: absolute;
     top: 10px;
     right: 10px;
+    transition: 0.3s all ease-in-out;
     @include tablet {
       font-size: 17px;
     }

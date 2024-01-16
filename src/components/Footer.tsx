@@ -7,9 +7,9 @@ export const Footer = () => {
                     <div className="footer__conect">
                         <div className="footer__logo"><img src="/assets/icons/logo.svg" alt="logo" />Zone.</div>
                         <div className="footer__contact">
-                        <div className="footer__location"><img src="/assets/icons/footer/Location.svg" alt="Location" />Dhaka, Bangladesh</div>
-                        <div className="footer__tel"><img src="/assets/icons/footer/Calling.svg" alt="Calling" />0943833399</div>
-                        <div className="footer__mail"><img src="/assets/icons/footer/Message.svg" alt="Message" />support@zone.com</div>
+                        <a href='/' className="footer__location"><img src="/assets/icons/footer/Location.svg" alt="Location" />Dhaka, Bangladesh</a>
+                        <a href='/' className="footer__tel"><img src="/assets/icons/footer/Calling.svg" alt="Calling" />0943833399</a>
+                        <a href='/' className="footer__mail"><img src="/assets/icons/footer/Message.svg" alt="Message" />support@zone.com</a>
                         </div>
                         
                         <div className="footer-media">

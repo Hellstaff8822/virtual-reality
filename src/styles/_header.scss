@@ -17,6 +17,7 @@
 
   &__nav {
     position: relative;
+  
     @include tablet {
       display: none;
     }
@@ -26,15 +27,41 @@
     display: flex;
     align-items: center;
     gap: 60px;
+    
   }
 
-  &__li {
-  }
-
+  
   &__link {
     color: #f9fafb;
     font-size: 14px;
     font-weight: 500;
+    position: relative;
+    transition: .3s all ease-in-out;
+    &:hover {
+      color: #ae01f8;
+      
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #ae01f8;
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+  
+    &:hover::before {
+      transform: scaleX(1);
+    }
+    @include tablet{
+      &:hover{
+        pointer-events: none;
+      }
+    }
+    
   }
 
   &__button {

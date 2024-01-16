@@ -8,7 +8,6 @@ body {
   background-size: cover;
 }
 
-
 .container {
   max-width: 1173px;
   margin-inline: auto;
@@ -17,8 +16,9 @@ body {
 
 .btn {
   border-radius: 4px;
-  background: var(
-    --Gardient,
-    linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
-  );
+  background: var(--btn-color);
+  transition: 0.2s all ease-in;
+  &:hover {
+    background: linear-gradient(90deg, #02153e 0.36%, #e11dff 201.02%);
+  }
 }
